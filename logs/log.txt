@@ -1,0 +1,201 @@
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.reader.ReaderFromFile- file was read
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 1 was created, current state = ready
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 2 was created, current state = ready
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 3 was created, current state = ready
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 4 was created, current state = ready
+2020-09-29 10:50:36 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- dock 1 was occupied
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [pool-2-thread-3] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 3 occupy dock
+2020-09-29 10:50:36 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- dock 2 was occupied
+2020-09-29 10:50:36 [pool-2-thread-4] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 4 occupy dock
+2020-09-29 10:50:36 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- dock 3 was occupied
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 5 was created, current state = ready
+2020-09-29 10:50:36 [pool-2-thread-2] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 2 occupy dock
+2020-09-29 10:50:36 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- dock 4 was occupied
+2020-09-29 10:50:36 [pool-2-thread-1] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 1 occupy dock
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 3
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 6 was created, current state = ready
+2020-09-29 10:50:36 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 4
+2020-09-29 10:50:36 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:36 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- dock 5 was occupied
+2020-09-29 10:50:36 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 2
+2020-09-29 10:50:36 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:36 [pool-2-thread-5] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 5 occupy dock
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 7 was created, current state = ready
+2020-09-29 10:50:36 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 1
+2020-09-29 10:50:36 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:36 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 5
+2020-09-29 10:50:36 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 8 was created, current state = ready
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 9 was created, current state = ready
+2020-09-29 10:50:36 [main] INFO  com.epam.multithreding.parser.ShipParser- characteristics of a ship was parsed successfully
+2020-09-29 10:50:36 [main] DEBUG com.epam.multithreding.entity.Ship- ship 10 was created, current state = ready
+2020-09-29 10:50:37 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 3
+2020-09-29 10:50:37 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:37 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 4
+2020-09-29 10:50:37 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:37 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 1
+2020-09-29 10:50:37 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:37 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 2
+2020-09-29 10:50:37 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:37 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 5
+2020-09-29 10:50:37 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:38 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 4
+2020-09-29 10:50:38 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:38 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 3
+2020-09-29 10:50:38 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:38 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 1
+2020-09-29 10:50:38 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:38 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 2
+2020-09-29 10:50:38 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:38 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 5
+2020-09-29 10:50:38 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:39 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 4
+2020-09-29 10:50:39 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:39 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 3
+2020-09-29 10:50:39 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:39 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 1
+2020-09-29 10:50:39 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:39 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 2
+2020-09-29 10:50:39 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:39 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 5
+2020-09-29 10:50:39 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:40 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 4
+2020-09-29 10:50:40 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:40 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 1
+2020-09-29 10:50:40 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:40 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 2
+2020-09-29 10:50:40 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:40 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 5
+2020-09-29 10:50:40 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- dock 1 was released
+2020-09-29 10:50:40 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:40 [pool-2-thread-3] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 3 release dock and leaving state
+2020-09-29 10:50:40 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- dock 6 was occupied
+2020-09-29 10:50:40 [pool-2-thread-3] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 6 occupy dock
+2020-09-29 10:50:40 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 6
+2020-09-29 10:50:40 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:41 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 4
+2020-09-29 10:50:41 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:41 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 1
+2020-09-29 10:50:41 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:41 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- dock 2 was released
+2020-09-29 10:50:41 [pool-2-thread-2] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 2 release dock and leaving state
+2020-09-29 10:50:41 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- dock 7 was occupied
+2020-09-29 10:50:41 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 5
+2020-09-29 10:50:41 [pool-2-thread-2] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 7 occupy dock
+2020-09-29 10:50:41 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:41 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 7
+2020-09-29 10:50:41 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:41 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 6
+2020-09-29 10:50:41 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:42 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 4
+2020-09-29 10:50:42 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:42 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 1
+2020-09-29 10:50:42 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:42 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 5
+2020-09-29 10:50:42 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:42 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 7
+2020-09-29 10:50:42 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:42 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 6
+2020-09-29 10:50:42 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:43 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 4
+2020-09-29 10:50:43 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:43 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 1
+2020-09-29 10:50:43 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:43 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- dock 3 was released
+2020-09-29 10:50:43 [pool-2-thread-5] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 5 release dock and leaving state
+2020-09-29 10:50:43 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 7
+2020-09-29 10:50:43 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- dock 1 was occupied
+2020-09-29 10:50:43 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:43 [pool-2-thread-5] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 8 occupy dock
+2020-09-29 10:50:43 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 8
+2020-09-29 10:50:43 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:43 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 6
+2020-09-29 10:50:43 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:44 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 4
+2020-09-29 10:50:44 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:44 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- dock 4 was released
+2020-09-29 10:50:44 [pool-2-thread-1] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 1 release dock and leaving state
+2020-09-29 10:50:44 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- dock 2 was occupied
+2020-09-29 10:50:44 [pool-2-thread-1] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 9 occupy dock
+2020-09-29 10:50:44 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 9
+2020-09-29 10:50:44 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:44 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 7
+2020-09-29 10:50:44 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:44 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 8
+2020-09-29 10:50:44 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:44 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 6
+2020-09-29 10:50:44 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:45 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 4
+2020-09-29 10:50:45 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:45 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 9
+2020-09-29 10:50:45 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:45 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 7
+2020-09-29 10:50:45 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:45 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 8
+2020-09-29 10:50:45 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:45 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- dock 5 was released
+2020-09-29 10:50:45 [pool-2-thread-3] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 6 release dock and leaving state
+2020-09-29 10:50:45 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- dock 3 was occupied
+2020-09-29 10:50:45 [pool-2-thread-3] INFO  epam.multithreding.entity.impl.ReadyStateImpl- ship 10 occupy dock
+2020-09-29 10:50:45 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 10
+2020-09-29 10:50:45 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:46 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 4
+2020-09-29 10:50:46 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:46 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 9
+2020-09-29 10:50:46 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:46 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 7
+2020-09-29 10:50:46 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:46 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 8
+2020-09-29 10:50:46 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:46 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 10
+2020-09-29 10:50:46 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:47 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 4
+2020-09-29 10:50:47 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:47 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 9
+2020-09-29 10:50:47 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:47 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 7
+2020-09-29 10:50:47 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:47 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 8
+2020-09-29 10:50:47 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:47 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 10
+2020-09-29 10:50:47 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:48 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 9
+2020-09-29 10:50:48 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:48 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 7
+2020-09-29 10:50:48 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:48 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 4
+2020-09-29 10:50:48 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:48 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 8
+2020-09-29 10:50:48 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:48 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 10
+2020-09-29 10:50:48 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:49 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 9
+2020-09-29 10:50:49 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:49 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 4
+2020-09-29 10:50:49 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:49 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 7
+2020-09-29 10:50:49 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:49 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Ship- one cargo UNLOAD from ship 8
+2020-09-29 10:50:49 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- one cargo LOAD to stock
+2020-09-29 10:50:49 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Ship- one cargo LOAD to ship 10
+2020-09-29 10:50:49 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- one cargo UNLOAD from stock
+2020-09-29 10:50:50 [pool-2-thread-4] INFO  com.epam.multithreding.entity.Port- dock 6 was released
+2020-09-29 10:50:50 [pool-2-thread-1] INFO  com.epam.multithreding.entity.Port- dock 7 was released
+2020-09-29 10:50:50 [pool-2-thread-4] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 4 release dock and leaving state
+2020-09-29 10:50:50 [pool-2-thread-1] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 9 release dock and leaving state
+2020-09-29 10:50:50 [pool-2-thread-2] INFO  com.epam.multithreding.entity.Port- dock 1 was released
+2020-09-29 10:50:50 [pool-2-thread-2] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 7 release dock and leaving state
+2020-09-29 10:50:50 [pool-2-thread-5] INFO  com.epam.multithreding.entity.Port- dock 2 was released
+2020-09-29 10:50:50 [pool-2-thread-5] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 8 release dock and leaving state
+2020-09-29 10:50:50 [pool-2-thread-3] INFO  com.epam.multithreding.entity.Port- dock 3 was released
+2020-09-29 10:50:50 [pool-2-thread-3] INFO  epam.multithreding.entity.impl.LeaveStateImpl- ship 10 release dock and leaving state
