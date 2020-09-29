@@ -1,6 +1,7 @@
 package com.epam.multithreding.entity;
 
-import com.epam.multithreding.entity.impl.ReadyStateImpl;
+import com.epam.multithreding.entity.state.impl.ReadyStateImpl;
+import com.epam.multithreding.entity.state.ShipState;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

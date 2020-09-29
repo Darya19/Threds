@@ -1,8 +1,8 @@
-package com.epam.multithreding.entity.impl;
+package com.epam.multithreding.entity.state.impl;
 
 import com.epam.multithreding.entity.Port;
 import com.epam.multithreding.entity.Ship;
-import com.epam.multithreding.entity.ShipState;
+import com.epam.multithreding.entity.state.ShipState;
 
 public class LoadStateImpl implements ShipState {
 
